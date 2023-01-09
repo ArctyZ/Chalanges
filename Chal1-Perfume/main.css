@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.mid-box{
+    margin-top: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    border-radius: 5px;
+    
+}
+
+#product{
+    height: 460px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: auto;
+}
+
+
+
+
+.text  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:15px;
+    margin-right: 10px;
+    row-gap: 0px;
+    border: 0;
+    padding: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#judul{
+    font-family: 'Fraunces', serif;
+
+}
+
+.price{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+#price-now{
+    color: hsl(158, 36%, 37%);
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 20px;
+}
+
+#price-before{
+    font-size: smaller;
+    text-decoration: line-through;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    height: 40px;
+    width: 200px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#button:hover{
+    opacity: .8;
+}
